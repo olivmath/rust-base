@@ -1,0 +1,13 @@
+{
+	// "postCreateCommand": "apt-get update && apt-get install -y curl",
+	"name": "Existing Dockerfile",
+	"dockerFile": "../Dockerfile",
+	"context": "..",
+	"extensions": [
+		"dustypomerleau.rust-syntax",
+		"JScearcy.rust-doc-viewer",
+		"matklad.rust-analyzer",
+		"bungcip.better-toml",
+		"rust-lang.rust"
+	]
+}
